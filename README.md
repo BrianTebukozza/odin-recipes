@@ -128,3 +128,15 @@ you are call all class elements with the class selector word and all with the se
 color: blue;
 }
 you are calling all the elements with the class selector word and ID selector oil
+
+i have forked a repo
+cloned it to my local machine
+used the git remote -v command
+used the git remote add upstream (SSH code) command
+
+css
+used external, internal and inline css
+
+external css - make a separate file of css. link it in the head
+internal css - in the head create a style section and add attributes in between the tags
+inline css - in the first tag, at the put the attributes starting with a style and separate with a ;
