@@ -5,9 +5,83 @@ div {
   background-color: red;
   color: white;
   text-align: center;
+  font-size: large;
+  font-style: normal;
 }
 
 img {
   height: 300px;
   width: 600px;
 }
+
+.title {
+  color: rgb(255, 255, 255);
+  background-color: rgb(247, 96, 171);
+  font-family: Verdana, Dejavu sans-serif;
+}
+
+.dish {
+  height: 400px;
+  width: 600px;
+}
+
+#top {
+  color: blue;
+  font-size: 36px;
+}
+
+.title,
+.middle {
+  font-size: 24px;
+  font-style: italic;
+}
+
+#details {
+  background-color: rgb(59, 157, 59);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.point,
+.option {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.point {
+  background-color: black;
+  color: white;
+}
+
+.option {
+  background-color: yellow;
+}
+
+.avatar.proportioned {
+  height: auto;
+  width: 300px;
+}
+
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
+}
+
+.create {
+  background-color: rgb(139, 142, 106);
+}
+
+.container .text {
+  background-color: yellow;
+  color: #e00000;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Below are some other possible descendant combinators:
+  
+  div p
+  div .text
+  .container p
+  
+  */
